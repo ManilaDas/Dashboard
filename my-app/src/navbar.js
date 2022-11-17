@@ -1,5 +1,7 @@
 
-function Navbar(){const d = new Date();
+function Navbar(){
+    
+    const d = new Date();
     let h = d.getHours();
     
     if(h>=6 && h<12){
@@ -20,7 +22,7 @@ function Navbar(){const d = new Date();
 
     return <div className="bg-gray-100 shadow-md rounded-b-md">
         
-            <h1 className="text-[30px] p-2 text-black font-bold" id="greet">Hi</h1>
+            <h1 className="text-[30px] py-4 pl-5 text-black font-bold" id="greet">Hi</h1>
 
     </div>
 }
