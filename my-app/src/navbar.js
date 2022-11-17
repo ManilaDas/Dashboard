@@ -1,15 +1,15 @@
 const d = new Date();
 let h = d.getHours();
 
-if(h>6 && h<12){
+if(h>=6 && h<12){
     document.getElementById("greet").textContent="Good Morning";
 }
 
-else if(h>12 && h<16){
+else if(h>=12 && h<16){
     document.getElementById("greet").textContent="Good Afternoon";
 }
 
-else if(h>16 && h<20){
+else if(h>=16 && h<20){
     document.getElementById("greet").textContent="Good Evening";
 }
 
